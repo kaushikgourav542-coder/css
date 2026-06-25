@@ -1,0 +1,198 @@
+/* selectors
+
+*{
+    color:yellowgreen;
+    background-color: rgb(222, 12, 131);
+    font-size:medium;
+    font-style:normal;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:aqua;
+    background-color:darkgoldenrod;
+    text-align: center;
+    font-size: xx-large;
+}
+ #login{
+    color: antiquewhite;
+    background-color: black;
+ }
+ #signup{
+    color: blanchedalmond;
+    background-color: blue;
+    background-image: ;
+ }
+
+html, body {
+    width: 100%;
+    height: 100vh; 
+}
+
+body {
+    background-image: url('car.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(222, 12, 131);
+}
+
+.vote{
+    color: yellow;
+    
+}
+
+div p a{
+    color: chartreuse;
+    background-color: black;
+}
+
+p+h3{
+    color:white;
+    background-color: blueviolet;
+
+}
+nav>ul{
+    color: dodgerblue;
+}
+
+input[type="text"]{
+    color: navy;
+}
+input[type="password"]{
+    color: red;
+}
+h3:hover{
+    text-decoration:  underline;
+}
+
+button:active{
+    color:brown;
+    background-color: blanchedalmond;
+}
+h3:active{
+    text-decoration: overline;
+}
+input[type="radio"]:checked + label{
+    color: green;
+    font-weight: bold;
+}
+
+.vote:nth-of-type(2n){
+    background-color:darkred
+}
+
+h1::first-letter{
+    color:darkgrey ;
+}
+p::first-line{
+    color:aqua;
+}
+
+p::selection{
+    background-color: blueviolet;
+    color: beige;
+} */
+
+
+/* box model */
+
+
+/* div{
+    height: 200px;
+    background-color: rgb(67, 87, 107);
+    width: 200px;
+    text-align: center;
+    border:2px;
+    border-style: solid;
+    border-color: red;
+    border: 2px solid black;
+    border-radius: 50px;
+    border-top-right-radius: 50%;
+    padding:25px 20px;
+    margin: 50px;
+
+} */
+
+/* span{
+    background-color: yellow;
+    height:200px;
+    width:200px;
+    padding:20px;
+    margin: 40px;
+    display:inline-block;
+
+
+} */
+
+/* div{
+    border: 2px solid black;
+    
+}
+h1{
+    border: 2px solid black;
+
+    padding: 15px;
+    margin: 25px;
+}
+h2{
+    border: 2px solid black;
+    width:2em%;
+} */
+/* 
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    font-size: 50px;
+
+}
+#inner{
+    height: 100px;
+    width:100px;
+    background-color: red;
+    font-size: 0.5em;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 0 auto;
+    transition: margin-top 2s steps(5) 0.2s;
+
+}
+
+div:hover{
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 300px;
+} */
+
+/* transforms */
+
+section{
+    margin-top: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    border:2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#one{
+    transform:rotate(45deg)
+}
